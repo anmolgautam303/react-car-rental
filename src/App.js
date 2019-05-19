@@ -1,28 +1,30 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Router, Route } from 'react-router-dom';
 
-class App extends Component {
-  render() {
+import { history } from './helpers/history';
+import { PrivateRoute } from './helpers/PrivateRoute';
+import LoginPage from './pages/login';
+import MainPage from './pages/main';
+import SignUpPage from './pages/signUp';
+
+import RentPage from './pages/rent';
+import ReturnCarPage from './pages/returnCar';
+
+const App = () => {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
-}
+        <div>
+          <Router history={history}>
+            <div>
+              <PrivateRoute path="/" exact strict component={MainPage} />
+              <PrivateRoute path="/rent" exact strict component={RentPage} />
+              <PrivateRoute path="/return" exact strict component={ReturnCarPage} />
 
+              <Route path="/login" exact strict component={LoginPage} />
+              <Route path="/sign-up" exact strict component={SignUpPage} />
+            </div>
+          </Router>
+        </div>
+    );
+}
+    
 export default App;

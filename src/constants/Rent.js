@@ -1,0 +1,2 @@
+export const SET_RENTED_CAR = 'SET_RENTED_CAR';
+export const SET_RENTED_DATES = 'SET_RENTED_DATES';
