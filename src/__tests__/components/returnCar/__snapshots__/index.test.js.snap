@@ -1,0 +1,509 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Car Card renders properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ReturnCar
+    rentedCard={
+      Object {
+        "engine": "Diesel",
+        "id": 1,
+        "image": "bmw-7-series.jpg",
+        "name": "BMW 7 Series",
+        "price": 618.77,
+        "seats": "5",
+        "transmission": "Automatic",
+        "type": "LARGE",
+      }
+    }
+    rentedDates={
+      Object {
+        "from": "Wed May 29 2019 12:00:00 GMT+0300",
+        "to": "Thu May 30 2019 12:00:00 GMT+0300",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="container"
+      >
+        <h3>
+          Return car
+        </h3>
+        <div
+          className="row return-card-center"
+        >
+          <CarCard
+            item={
+              Object {
+                "engine": "Diesel",
+                "id": 1,
+                "image": "bmw-7-series.jpg",
+                "name": "BMW 7 Series",
+                "price": 618.77,
+                "seats": "5",
+                "transmission": "Automatic",
+                "type": "LARGE",
+              }
+            }
+            rentedDates={
+              Object {
+                "from": "Wed May 29 2019 12:00:00 GMT+0300",
+                "to": "Thu May 30 2019 12:00:00 GMT+0300",
+              }
+            }
+          >
+            <div
+              className="button-container"
+            >
+              <h5
+                className="return-date"
+              >
+                Return date: 
+                30-05-2019
+              </h5>
+            </div>
+          </CarCard>
+        </div>
+      </div>,
+      "className": "return-container",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h3>
+            Return car
+          </h3>,
+          <div
+            className="row return-card-center"
+          >
+            <CarCard
+              item={
+                Object {
+                  "engine": "Diesel",
+                  "id": 1,
+                  "image": "bmw-7-series.jpg",
+                  "name": "BMW 7 Series",
+                  "price": 618.77,
+                  "seats": "5",
+                  "transmission": "Automatic",
+                  "type": "LARGE",
+                }
+              }
+              rentedDates={
+                Object {
+                  "from": "Wed May 29 2019 12:00:00 GMT+0300",
+                  "to": "Thu May 30 2019 12:00:00 GMT+0300",
+                }
+              }
+            >
+              <div
+                className="button-container"
+              >
+                <h5
+                  className="return-date"
+                >
+                  Return date: 
+                  30-05-2019
+                </h5>
+              </div>
+            </CarCard>
+          </div>,
+        ],
+        "className": "container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Return car",
+          },
+          "ref": null,
+          "rendered": "Return car",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <CarCard
+              item={
+                Object {
+                  "engine": "Diesel",
+                  "id": 1,
+                  "image": "bmw-7-series.jpg",
+                  "name": "BMW 7 Series",
+                  "price": 618.77,
+                  "seats": "5",
+                  "transmission": "Automatic",
+                  "type": "LARGE",
+                }
+              }
+              rentedDates={
+                Object {
+                  "from": "Wed May 29 2019 12:00:00 GMT+0300",
+                  "to": "Thu May 30 2019 12:00:00 GMT+0300",
+                }
+              }
+            >
+              <div
+                className="button-container"
+              >
+                <h5
+                  className="return-date"
+                >
+                  Return date: 
+                  30-05-2019
+                </h5>
+              </div>
+            </CarCard>,
+            "className": "row return-card-center",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <div
+                className="button-container"
+              >
+                <h5
+                  className="return-date"
+                >
+                  Return date: 
+                  30-05-2019
+                </h5>
+              </div>,
+              "item": Object {
+                "engine": "Diesel",
+                "id": 1,
+                "image": "bmw-7-series.jpg",
+                "name": "BMW 7 Series",
+                "price": 618.77,
+                "seats": "5",
+                "transmission": "Automatic",
+                "type": "LARGE",
+              },
+              "rentedDates": Object {
+                "from": "Wed May 29 2019 12:00:00 GMT+0300",
+                "to": "Thu May 30 2019 12:00:00 GMT+0300",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h5
+                  className="return-date"
+                >
+                  Return date: 
+                  30-05-2019
+                </h5>,
+                "className": "button-container",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Return date: ",
+                    "30-05-2019",
+                  ],
+                  "className": "return-date",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Return date: ",
+                  "30-05-2019",
+                ],
+                "type": "h5",
+              },
+              "type": "div",
+            },
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="container"
+        >
+          <h3>
+            Return car
+          </h3>
+          <div
+            className="row return-card-center"
+          >
+            <CarCard
+              item={
+                Object {
+                  "engine": "Diesel",
+                  "id": 1,
+                  "image": "bmw-7-series.jpg",
+                  "name": "BMW 7 Series",
+                  "price": 618.77,
+                  "seats": "5",
+                  "transmission": "Automatic",
+                  "type": "LARGE",
+                }
+              }
+              rentedDates={
+                Object {
+                  "from": "Wed May 29 2019 12:00:00 GMT+0300",
+                  "to": "Thu May 30 2019 12:00:00 GMT+0300",
+                }
+              }
+            >
+              <div
+                className="button-container"
+              >
+                <h5
+                  className="return-date"
+                >
+                  Return date: 
+                  30-05-2019
+                </h5>
+              </div>
+            </CarCard>
+          </div>
+        </div>,
+        "className": "return-container",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3>
+              Return car
+            </h3>,
+            <div
+              className="row return-card-center"
+            >
+              <CarCard
+                item={
+                  Object {
+                    "engine": "Diesel",
+                    "id": 1,
+                    "image": "bmw-7-series.jpg",
+                    "name": "BMW 7 Series",
+                    "price": 618.77,
+                    "seats": "5",
+                    "transmission": "Automatic",
+                    "type": "LARGE",
+                  }
+                }
+                rentedDates={
+                  Object {
+                    "from": "Wed May 29 2019 12:00:00 GMT+0300",
+                    "to": "Thu May 30 2019 12:00:00 GMT+0300",
+                  }
+                }
+              >
+                <div
+                  className="button-container"
+                >
+                  <h5
+                    className="return-date"
+                  >
+                    Return date: 
+                    30-05-2019
+                  </h5>
+                </div>
+              </CarCard>
+            </div>,
+          ],
+          "className": "container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Return car",
+            },
+            "ref": null,
+            "rendered": "Return car",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <CarCard
+                item={
+                  Object {
+                    "engine": "Diesel",
+                    "id": 1,
+                    "image": "bmw-7-series.jpg",
+                    "name": "BMW 7 Series",
+                    "price": 618.77,
+                    "seats": "5",
+                    "transmission": "Automatic",
+                    "type": "LARGE",
+                  }
+                }
+                rentedDates={
+                  Object {
+                    "from": "Wed May 29 2019 12:00:00 GMT+0300",
+                    "to": "Thu May 30 2019 12:00:00 GMT+0300",
+                  }
+                }
+              >
+                <div
+                  className="button-container"
+                >
+                  <h5
+                    className="return-date"
+                  >
+                    Return date: 
+                    30-05-2019
+                  </h5>
+                </div>
+              </CarCard>,
+              "className": "row return-card-center",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <div
+                  className="button-container"
+                >
+                  <h5
+                    className="return-date"
+                  >
+                    Return date: 
+                    30-05-2019
+                  </h5>
+                </div>,
+                "item": Object {
+                  "engine": "Diesel",
+                  "id": 1,
+                  "image": "bmw-7-series.jpg",
+                  "name": "BMW 7 Series",
+                  "price": 618.77,
+                  "seats": "5",
+                  "transmission": "Automatic",
+                  "type": "LARGE",
+                },
+                "rentedDates": Object {
+                  "from": "Wed May 29 2019 12:00:00 GMT+0300",
+                  "to": "Thu May 30 2019 12:00:00 GMT+0300",
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <h5
+                    className="return-date"
+                  >
+                    Return date: 
+                    30-05-2019
+                  </h5>,
+                  "className": "button-container",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Return date: ",
+                      "30-05-2019",
+                    ],
+                    "className": "return-date",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Return date: ",
+                    "30-05-2019",
+                  ],
+                  "type": "h5",
+                },
+                "type": "div",
+              },
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

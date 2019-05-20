@@ -6,7 +6,6 @@ import './returnCar.css';
 
 class ReturnCar extends Component {
   render() {
-    console.log('this.props.rentedCard', this.props.rentedCard);
     return (
       <div className="return-container">
         <div className="container">

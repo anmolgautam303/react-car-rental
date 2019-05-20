@@ -43,21 +43,21 @@ class Login extends React.Component {
           <form name="form" onSubmit={this.handleSubmit}>
             <div className={'form-group' + (submitted && !email ? ' has-error' : '')}>
               <label htmlFor="email">Email</label>
-              <input type="text" className="form-control" name="email" value={email} onChange={this.handleChange} />
+              <input id="input-auth-username" type="text" className="form-control" name="email" value={email} onChange={this.handleChange} />
               {submitted && !email &&
                 <div className="help-block">Email is required</div>
               }
             </div>
             <div className={'form-group' + (submitted && !password ? ' has-error' : '')}>
               <label htmlFor="password">Password</label>
-              <input type="password" className="form-control" name="password" value={password} onChange={this.handleChange} />
+              <input  id="input-auth-password" type="password" className="form-control" name="password" value={password} onChange={this.handleChange} />
               {submitted && !password &&
                 <div className="help-block">Password is required</div>
               }
             </div>
             <div className="form-group">
               <button
-                className="btn btn-primary login-custom-button"
+                className="btn btn-primary login-custom-button login-button"
               >
                 Login
               </button>
@@ -67,6 +67,7 @@ class Login extends React.Component {
           <hr />
           <div className="form-group">
               <button
+                id="sign-up-button"
                 className="btn btn-danger login-custom-button"
                 onClick={() => history.push('/sign-up')}
               >

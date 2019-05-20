@@ -2,15 +2,19 @@
 
 In the project directory, you can run:
 
-### `npm i`
+### `yarn install`
 
 Installs all the packages.
 
-### `HTTPS=true npm start`
+### `HTTPS=true yarn start`
 
 Runs the app in the development mode.<br>
 Open [https://localhost:3000](https://localhost:3000) to view it in the browser.
 
-### `npm test`
+### `yarn test --silent`
 
 Launches the test runner in the interactive watch mode.
+
+### `yarn test -- --coverage`
+
+Check test coverage

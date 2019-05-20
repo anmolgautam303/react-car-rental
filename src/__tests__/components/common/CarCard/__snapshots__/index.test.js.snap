@@ -1,0 +1,616 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Car Card renders properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CarCard
+    item={
+      Object {
+        "engine": "Diesel",
+        "id": 1,
+        "image": "bmw-7-series.jpg",
+        "name": "BMW 7 Series",
+        "price": 618.77,
+        "seats": "5",
+        "transmission": "Automatic",
+        "type": "LARGE",
+      }
+    }
+    rentedDates={
+      Object {
+        "from": "Wed May 29 2019 12:00:00 GMT+0300",
+        "to": "Thu May 30 2019 12:00:00 GMT+0300",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="balance-box bg-light"
+      >
+        <header
+          className="car-header"
+        >
+          <h6
+            className="category"
+          >
+            LARGE
+          </h6>
+          <div
+            className="row"
+          >
+            <div
+              className="col-sm"
+            >
+              <h6>
+                BMW 7 Series
+              </h6>
+            </div>
+            <div
+              className="col-sm"
+            >
+              <h6
+                className="price"
+              >
+                1237.54
+                €
+              </h6>
+            </div>
+          </div>
+        </header>
+        <figure
+          className="car-container image-placeholder"
+        >
+          <img
+            alt="car"
+            className="responsive-image car-image"
+            src="bmw-7-series.jpg"
+          />
+        </figure>
+      </div>,
+      "className": "col-lg-4 col-md-6 col-sm-12",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <header
+            className="car-header"
+          >
+            <h6
+              className="category"
+            >
+              LARGE
+            </h6>
+            <div
+              className="row"
+            >
+              <div
+                className="col-sm"
+              >
+                <h6>
+                  BMW 7 Series
+                </h6>
+              </div>
+              <div
+                className="col-sm"
+              >
+                <h6
+                  className="price"
+                >
+                  1237.54
+                  €
+                </h6>
+              </div>
+            </div>
+          </header>,
+          <figure
+            className="car-container image-placeholder"
+          >
+            <img
+              alt="car"
+              className="responsive-image car-image"
+              src="bmw-7-series.jpg"
+            />
+          </figure>,
+          undefined,
+        ],
+        "className": "balance-box bg-light",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h6
+                className="category"
+              >
+                LARGE
+              </h6>,
+              <div
+                className="row"
+              >
+                <div
+                  className="col-sm"
+                >
+                  <h6>
+                    BMW 7 Series
+                  </h6>
+                </div>
+                <div
+                  className="col-sm"
+                >
+                  <h6
+                    className="price"
+                  >
+                    1237.54
+                    €
+                  </h6>
+                </div>
+              </div>,
+            ],
+            "className": "car-header",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "LARGE",
+                "className": "category",
+              },
+              "ref": null,
+              "rendered": "LARGE",
+              "type": "h6",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-sm"
+                  >
+                    <h6>
+                      BMW 7 Series
+                    </h6>
+                  </div>,
+                  <div
+                    className="col-sm"
+                  >
+                    <h6
+                      className="price"
+                    >
+                      1237.54
+                      €
+                    </h6>
+                  </div>,
+                ],
+                "className": "row",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <h6>
+                      BMW 7 Series
+                    </h6>,
+                    "className": "col-sm",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "BMW 7 Series",
+                    },
+                    "ref": null,
+                    "rendered": "BMW 7 Series",
+                    "type": "h6",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <h6
+                      className="price"
+                    >
+                      1237.54
+                      €
+                    </h6>,
+                    "className": "col-sm",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "1237.54",
+                        "€",
+                      ],
+                      "className": "price",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "1237.54",
+                      "€",
+                    ],
+                    "type": "h6",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "header",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <img
+              alt="car"
+              className="responsive-image car-image"
+              src="bmw-7-series.jpg"
+            />,
+            "className": "car-container image-placeholder",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "car",
+              "className": "responsive-image car-image",
+              "src": "bmw-7-series.jpg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": "figure",
+        },
+        undefined,
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="balance-box bg-light"
+        >
+          <header
+            className="car-header"
+          >
+            <h6
+              className="category"
+            >
+              LARGE
+            </h6>
+            <div
+              className="row"
+            >
+              <div
+                className="col-sm"
+              >
+                <h6>
+                  BMW 7 Series
+                </h6>
+              </div>
+              <div
+                className="col-sm"
+              >
+                <h6
+                  className="price"
+                >
+                  1237.54
+                  €
+                </h6>
+              </div>
+            </div>
+          </header>
+          <figure
+            className="car-container image-placeholder"
+          >
+            <img
+              alt="car"
+              className="responsive-image car-image"
+              src="bmw-7-series.jpg"
+            />
+          </figure>
+        </div>,
+        "className": "col-lg-4 col-md-6 col-sm-12",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <header
+              className="car-header"
+            >
+              <h6
+                className="category"
+              >
+                LARGE
+              </h6>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-sm"
+                >
+                  <h6>
+                    BMW 7 Series
+                  </h6>
+                </div>
+                <div
+                  className="col-sm"
+                >
+                  <h6
+                    className="price"
+                  >
+                    1237.54
+                    €
+                  </h6>
+                </div>
+              </div>
+            </header>,
+            <figure
+              className="car-container image-placeholder"
+            >
+              <img
+                alt="car"
+                className="responsive-image car-image"
+                src="bmw-7-series.jpg"
+              />
+            </figure>,
+            undefined,
+          ],
+          "className": "balance-box bg-light",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h6
+                  className="category"
+                >
+                  LARGE
+                </h6>,
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col-sm"
+                  >
+                    <h6>
+                      BMW 7 Series
+                    </h6>
+                  </div>
+                  <div
+                    className="col-sm"
+                  >
+                    <h6
+                      className="price"
+                    >
+                      1237.54
+                      €
+                    </h6>
+                  </div>
+                </div>,
+              ],
+              "className": "car-header",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "LARGE",
+                  "className": "category",
+                },
+                "ref": null,
+                "rendered": "LARGE",
+                "type": "h6",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="col-sm"
+                    >
+                      <h6>
+                        BMW 7 Series
+                      </h6>
+                    </div>,
+                    <div
+                      className="col-sm"
+                    >
+                      <h6
+                        className="price"
+                      >
+                        1237.54
+                        €
+                      </h6>
+                    </div>,
+                  ],
+                  "className": "row",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <h6>
+                        BMW 7 Series
+                      </h6>,
+                      "className": "col-sm",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "BMW 7 Series",
+                      },
+                      "ref": null,
+                      "rendered": "BMW 7 Series",
+                      "type": "h6",
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <h6
+                        className="price"
+                      >
+                        1237.54
+                        €
+                      </h6>,
+                      "className": "col-sm",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "1237.54",
+                          "€",
+                        ],
+                        "className": "price",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "1237.54",
+                        "€",
+                      ],
+                      "type": "h6",
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "header",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                alt="car"
+                className="responsive-image car-image"
+                src="bmw-7-series.jpg"
+              />,
+              "className": "car-container image-placeholder",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "car",
+                "className": "responsive-image car-image",
+                "src": "bmw-7-series.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "figure",
+          },
+          undefined,
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
